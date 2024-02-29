@@ -1,0 +1,14 @@
+codeIntegrationId: 65c8be26c54db419bcb2ec52
+projectId: ""
+secretId: ""
+entryFile: leap_binder.py
+include:
+    - leap_binder.py
+    - leap_custom_test.py
+    - ecg/data/preprocessing.py
+    - ecg/utils/gcs_utils.py
+    - ecg/utils/metrics.py
+    - ecg/config.py
+    - ecg/config.yml
+    - ecg/utils/packages.py
+    - ecg/utils/visualizers.py
