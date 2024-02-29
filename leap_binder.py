@@ -18,7 +18,6 @@ import wfdb
 import tensorflow as tf
 from ecg.data.preprocessing import *
 from ecg.utils.gcs_utils import *
-from ecg.utils.gcs_utils import _download
 from ecg.utils.metrics import pred_label
 from scipy.signal import find_peaks
 from scipy.interpolate import interp1d
