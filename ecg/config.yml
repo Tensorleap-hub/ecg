@@ -1,0 +1,41 @@
+BUCKET_NAME: example-datasets-47ml982d
+PROJECT_ID: example-dev-project-nmrksf0o
+GCS_PATH: ecg/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.1
+
+TRAIN_SAMPLE_SIZE: null
+TEST_SAMPLE_SIZE: null
+VAL_SAMPLE_SIZE: null
+
+GENDER_LABELS:
+  - male
+  - female
+
+LABELS:
+  - CD
+  - HYP
+  - MI
+  - NORM
+  - None
+  - STTC
+
+PACKAGES:
+  - wfdb
+SAMPLE_TIMES: 1
+
+sig_names:
+  - I
+  - II
+  - III
+  - AVR
+  - AVL
+  - AVF
+  - V1
+  - V2
+  - V3
+  - V4
+  - V5
+  - V6
+
+
+
+
